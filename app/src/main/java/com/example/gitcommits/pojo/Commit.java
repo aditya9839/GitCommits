@@ -109,5 +109,5 @@ public class Commit extends ViewModel {
         this.parents = parents;
     }
 
-    //this is second commit
+    //this is third commit
 }

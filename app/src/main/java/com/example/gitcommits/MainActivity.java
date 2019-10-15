@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(mAdapter);
 
         endpoint = RetrofitClientInstance.getRetrofitInstance().create(Endpoint.class);
-        endpoint.getCommits("aditya9839", "GitCommits").enqueue(new Callback<List<Commit>>() {
+        endpoint.getCommits("mabhi256", "playforscala").enqueue(new Callback<List<Commit>>() {
             @Override
             public void onResponse(@NonNull Call<List<Commit>> call, @NonNull Response<List<Commit>> response) {
 //                populateRecyclerView(response.body());
